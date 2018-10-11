@@ -1,0 +1,21 @@
+{
+  "name": "atlas-cli-tool",
+  "version": "1.0.0",
+  "description": "Cli tool for price, status and all cryptocurrency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "freeman ogbiyoyo",
+  "license": "ISC",
+  "bin": {
+    "atlas": "bin/atlas.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.1",
+    "minimist": "^1.2.0",
+    "ora": "^3.0.0",
+    "request": "^2.88.0"
+  }
+}
